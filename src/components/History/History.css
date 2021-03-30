@@ -1,0 +1,27 @@
+.history-list{
+    list-style: none;
+    background-color: darkgrey;
+}
+
+li{
+    margin-top: 2px;
+    width: 300px;
+    height: 30px;
+    font-weight: 900;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+ul{
+    border:none;
+    width: fit-content;
+    height: fit-content;
+    display: table-cell;
+}
+
+.history{
+    margin-top: 100px;
+    width: fit-content;
+    position: absolute;
+    right: 15%;
+}

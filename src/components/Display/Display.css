@@ -1,0 +1,9 @@
+.Display{
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+    position:absolute;
+    left: 35%;
+    right: 20%;
+    margin-right: 20%;
+}

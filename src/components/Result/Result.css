@@ -1,0 +1,14 @@
+.result-screen{
+    position: absolute;
+    margin-top: 5px;
+    border-radius: 5px;
+    top: 105%;
+    width: 80%;
+    left: 8%;
+    height: 30px;
+    padding: 4px;
+    text-align: center;
+    font-weight: 900;
+    line-height: 30px;
+    background-color: darkgrey;
+}

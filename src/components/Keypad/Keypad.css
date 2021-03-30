@@ -1,0 +1,93 @@
+.key-row{
+    display: flex;
+    flex-direction: row;
+    background-color: darkgrey;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 10px;
+    width: 84%;
+    height: 100%;
+}
+.board{
+    width: 95%;
+    margin: 12px;
+    height: 75%;
+    position: relative;
+}
+
+.keypad{
+    background-color: darkgrey;
+    width: 85%;
+    padding: 10px;
+    margin: 12px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 3px #ccc;
+    position: absolute;
+    left: 4%;
+    text-align: center;
+}
+
+.btn-key{
+    width:60px;
+    height: 30px;
+    display: inline-block;
+    border: transparent;
+    margin:5px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 3px #687c97;
+    border-radius: 6px;
+    font-size: large;
+    outline: none;
+    transition: all 0.2s linear;
+}
+
+.btn-key:hover{
+    background-color:#687c97;
+}
+
+.btn-key:active{
+    outline: none;
+    transform: scale(1.1);
+}
+
+.btn-key.result{
+    width: 126px;
+}
+
+.btn-toggle{
+    width:100px;
+    height: 32px;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 0 2px 3px #687c97;
+    border-radius: 8px;
+    font-weight: 800;
+    border: transparent;
+    font-size: large;
+    outline: none;
+    transition: all 0.2s linear;
+}
+
+.btn-toggle:hover{
+    background-color: #687c97;
+}
+
+.btn-toggle:active{
+    transform: scale(1.1);
+}
+
+.toggle{
+    text-align: center;
+    width: max-content;
+    margin-top: 54px;   
+    padding: 10px;
+    position: absolute;
+    left: 35%;
+}
+.Layout{
+    width: 95%;
+    height: 98%;
+    padding: 12px;
+    position: relative;
+}
